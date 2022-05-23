@@ -8,8 +8,8 @@
         placeholder="Search for a Movie"
         class="nav-input"
       />
-      <button class="nav-button" @click="searchMovies">Search</button>
-      <p class="error-message" v-if="searchedMovies.length === 0">
+      <button class="nav-button" @click="searchFilms">Search</button>
+      <p class="error-message" v-if="searchedFilms.length === 0">
         Oops! try searching film with some other title.
       </p>
     </nav>
@@ -25,10 +25,10 @@ export default {
     };
   },
   computed: {
-    ...mapGetters({ searchedMovies: "getSearchedFilms" }),
+    ...mapGetters({ searchedFilms: "getSearchedFilms" }),
   },
   methods: {
-    async searchMovies() {
+    async searchFilms() {
       this.showErrorMessage = false;
       await this.$store.dispatch("fetchSearchedFilms", {
         title: this.title,
