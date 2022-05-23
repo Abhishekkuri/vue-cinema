@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageFooter.vue Footer renders correctly 1`] = `
+<div
+  class="footer-container"
+>
+  <span>
+    This is a Cinema application.
+  </span>
+   
+  <span>
+    Framework: VueJS
+  </span>
+   
+  <span>
+    Creator: Abhishek Kuri
+  </span>
+</div>
+`;

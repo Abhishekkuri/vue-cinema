@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchPage.vue Search Page renders correctly 1`] = `
+<div>
+  <h1
+    class="view-heading"
+  >
+    Your Top 5 Films
+  </h1>
+   
+  <transition-stub
+    mode="out-in"
+    name="fade"
+  >
+    <div
+      class="search-container"
+    >
+      <film-card-stub
+        film="[object Object]"
+      />
+      <film-card-stub
+        film="[object Object]"
+      />
+      <film-card-stub
+        film="[object Object]"
+      />
+      <film-card-stub
+        film="[object Object]"
+      />
+      <film-card-stub
+        film="[object Object]"
+      />
+    </div>
+  </transition-stub>
+</div>
+`;

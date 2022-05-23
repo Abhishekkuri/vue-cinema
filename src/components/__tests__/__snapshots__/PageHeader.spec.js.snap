@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageHeader.vue Header renders correctly 1`] = `
+<div
+  class="header-container"
+>
+  <img
+    alt="logo"
+    src="@/assets/cinema-trans.png"
+  />
+</div>
+`;

@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilmCard.vue FilmCard renders correctly 1`] = `
+<div
+  class="card-container"
+>
+  <div
+    class="card"
+  >
+    <div
+      class="poster"
+    >
+      <img
+        alt="Poster Not Available"
+      />
+    </div>
+     
+    <div
+      class="card-detail"
+    >
+      <h4
+        class="card-detail-item"
+      >
+        Some Title
+      </h4>
+       
+      <div
+        class="card-detail-item"
+      >
+        Type: Series
+      </div>
+       
+      <div
+        class="card-detail-item"
+      >
+        Rated: 8
+      </div>
+       
+      <div
+        card-detail-item=""
+      >
+        
+        Genre:
+        
+        <span
+          class="custom-span"
+        >
+          
+          Mystry
+        
+        </span>
+        <span
+          class="custom-span"
+        >
+          
+           Drama
+        
+        </span>
+        <span
+          class="custom-span"
+        >
+          
+           Musical
+        
+        </span>
+      </div>
+       
+      <div
+        class="card-detail-item"
+      >
+        Year: 
+      </div>
+       
+      <div
+        class="card-detail-item"
+      >
+        
+        Actors:
+        
+        <span
+          class="custom-span actor"
+        >
+          
+          Ben
+        
+        </span>
+        <span
+          class="custom-span actor"
+        >
+          
+           John
+        
+        </span>
+        <span
+          class="custom-span actor"
+        >
+          
+           Henk
+        
+        </span>
+      </div>
+       
+      <div
+        class="card-detail-item"
+      >
+        Directors: Ben, John, Henk
+      </div>
+       
+      <div
+        class="card-detail-item"
+      >
+        Awards: Oscar, BAFTA
+      </div>
+       
+      <p
+        class="card-detail-item"
+      >
+        
+        Plot:
+        
+        <span>
+          This is a movie plot with more than 200 words. This is a movie plot with more than 200 words. This is a movie plot with more than 200 words. This is a movie plot with more than 200 words. This is a mo
+        </span>
+         
+        <a
+          class="read-more"
+        >
+          
+          read more...
+        
+        </a>
+         
+        <!---->
+      </p>
+    </div>
+  </div>
+</div>
+`;

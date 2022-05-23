@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeaturedPage.vue Featured Page renders correctly 1`] = `
+<div
+  class="main-container"
+>
+  <page-header-stub
+    class="page-header"
+  />
+   
+  <navigation-bar-stub
+    class="navigation-bar"
+  />
+   
+  <transition-stub
+    mode="out-in"
+    name="fade"
+  >
+    <router-view
+      class="router-view"
+    />
+  </transition-stub>
+   
+  <page-footer-stub
+    class="page-footer"
+  />
+</div>
+`;

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavigationBar.vue Navigation Bar renders correctly 1`] = `
+<div
+  class="navigation-container"
+>
+  <nav>
+    <a
+      class="nav-link"
+    >
+      Featured Films
+    </a>
+     
+    <input
+      class="nav-input"
+      placeholder="Search for a Movie"
+      type="text"
+    />
+     
+    <button
+      class="nav-button"
+    >
+      Search
+    </button>
+  </nav>
+</div>
+`;
