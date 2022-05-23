@@ -9,24 +9,30 @@
         class="nav-input"
       />
       <button class="nav-button" @click="searchMovies">Search</button>
+      <p class="error-message" v-if="searchedMovies.length === 0">
+        Oops! try searching film with some other title.
+      </p>
     </nav>
   </div>
 </template>
 
 <script>
+import { mapGetters } from "vuex";
 export default {
   data() {
     return {
       title: "",
     };
   },
+  computed: {
+    ...mapGetters({ searchedMovies: "getSearchedFilms" }),
+  },
   methods: {
     async searchMovies() {
+      this.showErrorMessage = false;
       await this.$store.dispatch("fetchSearchedFilms", {
         title: this.title,
       });
-      if (this.$store.getters.getSearchedFilms.length === 0)
-        this.$router.replace(`/*`);
       this.$router.replace(`/search/${this.title}`);
     },
   },
@@ -73,7 +79,6 @@ export default {
       font-size: 1.5rem;
       border: 1px solid $color-tirtiery;
       border-radius: 10px;
-      // background-color: $color-grey-light;
       text-align: center;
       transition: 0.3s;
       &:hover {
@@ -100,6 +105,12 @@ export default {
       }
     }
   }
+}
+
+.error-message {
+  color: red;
+  font-size: 1rem;
+  text-align: center;
 }
 
 @media screen and (max-width: 820px) {

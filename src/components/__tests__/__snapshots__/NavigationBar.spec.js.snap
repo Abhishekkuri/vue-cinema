@@ -22,6 +22,14 @@ exports[`NavigationBar.vue Navigation Bar renders correctly 1`] = `
     >
       Search
     </button>
+     
+    <p
+      class="error-message"
+    >
+      
+      Oops! try searching film with some other title.
+    
+    </p>
   </nav>
 </div>
 `;
