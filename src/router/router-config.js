@@ -1,16 +1,15 @@
-import FeaturedPage from "@/views/FeaturedPage";
+import FeaturePage from "@/views/FeaturePage";
 
 const routes = [
   {
     path: "/",
     name: "home",
-    component: FeaturedPage,
+    component: FeaturePage,
   },
   {
     path: "/search/:title",
     name: "SearchPage",
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/SearchPage.vue"),
+    component: () => import("../views/SearchPage.vue"),
   },
 ];
 

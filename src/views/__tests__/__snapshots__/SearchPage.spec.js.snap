@@ -8,29 +8,24 @@ exports[`SearchPage.vue Search Page renders correctly 1`] = `
     Your Top 5 Films
   </h1>
    
-  <transition-stub
-    mode="out-in"
-    name="fade"
+  <div
+    class="search-container"
   >
-    <div
-      class="search-container"
-    >
-      <film-card-stub
-        film="[object Object]"
-      />
-      <film-card-stub
-        film="[object Object]"
-      />
-      <film-card-stub
-        film="[object Object]"
-      />
-      <film-card-stub
-        film="[object Object]"
-      />
-      <film-card-stub
-        film="[object Object]"
-      />
-    </div>
-  </transition-stub>
+    <film-card-stub
+      film="[object Object]"
+    />
+    <film-card-stub
+      film="[object Object]"
+    />
+    <film-card-stub
+      film="[object Object]"
+    />
+    <film-card-stub
+      film="[object Object]"
+    />
+    <film-card-stub
+      film="[object Object]"
+    />
+  </div>
 </div>
 `;

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`FeaturedPage.vue Featured Page renders correctly 1`] = `
+exports[`FeaturePage.vue Featured Page renders correctly 1`] = `
 <div
   class="main-container"
 >

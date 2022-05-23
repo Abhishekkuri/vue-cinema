@@ -4,7 +4,7 @@ import PageFooter from "@/components/PageFooter.vue";
 import PageHeader from "@/components/PageHeader.vue";
 import App from "@/App";
 
-describe("FeaturedPage.vue", () => {
+describe("FeaturePage.vue", () => {
   test("Featured Page renders correctly", () => {
     const wrapper = shallowMount(App);
     expect(wrapper.element).toMatchSnapshot();

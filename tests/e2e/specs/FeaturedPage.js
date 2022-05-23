@@ -1,4 +1,4 @@
-describe("FeaturedPage", () => {
+describe("FeaturePage", () => {
   it("Visits and renders 2 Featured Films", () => {
     cy.visit("http://localhost:8080/");
     cy.contains("h1", "Featured Films");

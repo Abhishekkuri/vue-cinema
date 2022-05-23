@@ -1,6 +1,6 @@
 import { createLocalVue, shallowMount } from "@vue/test-utils";
 import Vuex from "vuex";
-import FeaturePage from "@/views/FeaturedPage";
+import FeaturePage from "@/views/FeaturePage";
 import FilmCard from "@/components/FilmCard";
 import merge from "lodash.merge";
 const localVue = createLocalVue();
@@ -37,7 +37,7 @@ function createWrapper(overrides) {
   return shallowMount(FeaturePage, merge(defaultMountingOptions, overrides));
 }
 
-describe("FeaturedPage.vue", () => {
+describe("FeaturePage.vue", () => {
   test("Featured Page renders correctly", () => {
     expect(createWrapper().element).toMatchSnapshot();
   });
